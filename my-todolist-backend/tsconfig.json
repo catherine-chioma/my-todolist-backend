@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "target": "ES6",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "module": "commonjs",
+    "strict": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/**/*.ts"  // Only include TypeScript source files
+  ],
+  "exclude": [
+    "node_modules",
+    "generated"     // Exclude the `generated` folder from TypeScript compilation
+  ]
+}
+
